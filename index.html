@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="にんじん.server の Minecraft サバイバルサーバー案内ページ">
+    <title>にんじん.server</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="にんじん.server ホーム">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>にんじん.server</span>
+      </a>
+      <nav class="nav" aria-label="ページ内ナビゲーション">
+        <a href="#join">接続</a>
+        <a href="#map">マップ</a>
+        <a href="#rules">ルール</a>
+        <a href="#status">運営情報</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Java Edition / Survival</p>
+          <h1 id="hero-title">にんじん.server</h1>
+          <p class="lead">友人・知人向けの小規模サバイバルサーバーです。ホワイトリスト制で、のんびり建築と探索を楽しむ場所として運営しています。</p>
+          <div class="hero-actions" aria-label="主な操作">
+            <button class="primary-action" type="button" data-copy="localhost:25565" aria-label="接続先をコピー">
+              <span aria-hidden="true">⧉</span>
+              <span>localhost:25565</span>
+            </button>
+            <a class="secondary-action" href="http://localhost:8123/" aria-label="BlueMapを開く">
+              <span aria-hidden="true">⌖</span>
+              <span>BlueMap</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="status-strip" id="join" aria-labelledby="join-title">
+        <div>
+          <p class="section-kicker">Connection</p>
+          <h2 id="join-title">接続情報</h2>
+        </div>
+        <dl class="facts">
+          <div>
+            <dt>アドレス</dt>
+            <dd>localhost:25565</dd>
+          </div>
+          <div>
+            <dt>バージョン</dt>
+            <dd>Paper 26.1.2</dd>
+          </div>
+          <div>
+            <dt>参加方式</dt>
+            <dd>ホワイトリスト制</dd>
+          </div>
+          <div>
+            <dt>最大人数</dt>
+            <dd>5人</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="content-band map-band" id="map" aria-labelledby="map-title">
+        <div class="section-heading">
+          <p class="section-kicker">BlueMap</p>
+          <h2 id="map-title">探索の足あとを見る</h2>
+          <p>ブラウザマップでは、プレイヤーが探索済みのエリアだけを表示しています。冒険の楽しさを残しつつ、建築場所や集合地点の確認に使えます。</p>
+        </div>
+        <div class="map-panel">
+          <div>
+            <h3>にんじん.server map</h3>
+            <p>地図はサーバーのワールド境界内で更新されます。未探索の場所は、ゲーム内で訪れるまで表示されません。</p>
+          </div>
+          <a class="map-action" href="http://localhost:8123/">
+            <span aria-hidden="true">▣</span>
+            <span>マップを見る</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="content-band split">
+        <div class="section-heading">
+          <p class="section-kicker">How To Join</p>
+          <h2>参加までの流れ</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <span>01</span>
+            <p>Minecraft Java Edition のユーザー名を運営へ連絡します。</p>
+          </li>
+          <li>
+            <span>02</span>
+            <p>ホワイトリスト登録後、マルチプレイから接続先を追加します。</p>
+          </li>
+          <li>
+            <span>03</span>
+            <p>初回ログイン後、スポーン周辺の案内とルールを確認します。</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="content-band" id="rules" aria-labelledby="rules-title">
+        <div class="section-heading">
+          <p class="section-kicker">Rules</p>
+          <h2 id="rules-title">参加ルール</h2>
+        </div>
+        <div class="rule-grid">
+          <article>
+            <h3>建築と土地</h3>
+            <p>人の建築物や整備中の土地は、本人に確認してから触ります。共有施設は看板やメモを残して使いやすくします。</p>
+          </article>
+          <article>
+            <h3>アイテム</h3>
+            <p>チェスト、畑、装置の中身は持ち主の許可を取ります。共有倉庫は補充できる範囲で使います。</p>
+          </article>
+          <article>
+            <h3>冒険</h3>
+            <p>遠出や大きな探索の前には座標を控えます。危険な場所を見つけたら、入口に目印を置きます。</p>
+          </article>
+          <article>
+            <h3>トラブル</h3>
+            <p>事故や破損に気づいたら、隠さず運営へ連絡します。巻き戻しが必要な場合はバックアップから判断します。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-band operations" id="status" aria-labelledby="status-title">
+        <div class="section-heading">
+          <p class="section-kicker">Operations</p>
+          <h2 id="status-title">運営情報</h2>
+        </div>
+        <div class="ops-layout">
+          <article class="notice">
+            <h3>現在の設定</h3>
+            <ul>
+              <li>サバイバル / 難易度 normal</li>
+              <li>PVP 無効</li>
+              <li>コマンドブロック無効</li>
+              <li>オンライン認証 有効</li>
+            </ul>
+          </article>
+          <article class="notice">
+            <h3>メンテナンス</h3>
+            <p id="maintenance-text">定期メンテナンス日は未定です。作業前には参加者へ個別に連絡します。</p>
+            <p class="updated">更新: <time id="updated-date" datetime="">-</time></p>
+          </article>
+          <article class="notice contact">
+            <h3>連絡先</h3>
+            <a href="mailto:ninjin.mcserver@gmail.com">ninjin.mcserver@gmail.com</a>
+            <p>ホワイトリスト登録、接続不調、巻き戻し相談はこちらへ。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>ninjin-survival</p>
+      <a href="#top">ページ上部へ</a>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite" hidden>接続先をコピーしました</div>
+    <script src="script.js"></script>
+  </body>
+</html>
