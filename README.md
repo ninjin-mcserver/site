@@ -40,8 +40,8 @@ C:\Users\mcadmin\minecraft\servers\ninjin-mcserver\main
 現在のローカルリンク:
 
 ```text
-Minecraft: localhost:25565
-BlueMap: http://localhost:8123/
+Minecraft: ninjin-server.freeddns.org:25565
+BlueMap: http://ninjin-server.freeddns.org:8123/
 ```
 
 公開サイトをプレイヤーに共有する前に、実際に外部からアクセスできる Minecraft サーバーアドレスと BlueMap URL に更新してください。
