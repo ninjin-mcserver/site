@@ -1,3 +1,4 @@
+/* サイト全体で使う色と影の変数です。 */
 :root {
   color-scheme: light;
   --ink: #18211d;
@@ -38,6 +39,7 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+/* 上部ナビゲーションとブランド表示です。 */
 .topbar {
   position: sticky;
   top: 0;
@@ -94,6 +96,7 @@ a {
   color: var(--forest);
 }
 
+/* ファーストビューはサーバー名と接続導線を優先します。 */
 .hero {
   min-height: calc(72vh - 64px);
   display: flex;
@@ -190,6 +193,7 @@ h1 {
   transform: translateY(-1px);
 }
 
+/* 各セクションの余白と読みやすさを揃えます。 */
 .status-strip,
 .content-band,
 .footer {
@@ -416,6 +420,7 @@ h3 {
   text-decoration: none;
 }
 
+/* コピー完了などの短い通知です。 */
 .toast {
   position: fixed;
   right: 18px;
@@ -431,6 +436,7 @@ h3 {
   font-weight: 800;
 }
 
+/* タブレット幅ではナビゲーションと本文の段組みを緩めます。 */
 @media (max-width: 920px) {
   h1 {
     font-size: 4.4rem;
@@ -453,6 +459,7 @@ h3 {
   }
 }
 
+/* スマートフォン幅では操作ボタンを縦並びにします。 */
 @media (max-width: 620px) {
   h1 {
     font-size: 2.35rem;

@@ -1,27 +1,27 @@
 # ninjin.server / site
 
-Public website repository for `ninjin.server`.
+`ninjin.server` の公開サイトを管理するリポジトリです。
 
-## Repository
+## リポジトリ
 
 ```text
 https://github.com/ninjin-mcserver/site
 ```
 
-Expected GitHub Pages URL:
+想定している GitHub Pages URL:
 
 ```text
 https://ninjin-mcserver.github.io/site/
 ```
 
-The Minecraft server configuration is managed separately:
+Minecraft サーバー本体の設定は別リポジトリで管理します。
 
 ```text
 https://github.com/ninjin-mcserver/main
 C:\Users\mcadmin\minecraft\servers\ninjin-mcserver\main
 ```
 
-## Files
+## ファイル構成
 
 ```text
 .
@@ -33,15 +33,15 @@ C:\Users\mcadmin\minecraft\servers\ninjin-mcserver\main
 +-- .nojekyll
 ```
 
-## Local Preview
+## ローカル確認
 
-Open `index.html` directly in a browser.
+`index.html` をブラウザで直接開いて確認します。
 
-Current local links:
+現在のローカルリンク:
 
 ```text
 Minecraft: localhost:25565
 BlueMap: http://localhost:8123/
 ```
 
-Update those before sharing the public site outside the host machine.
+公開サイトをプレイヤーに共有する前に、実際に外部からアクセスできる Minecraft サーバーアドレスと BlueMap URL に更新してください。

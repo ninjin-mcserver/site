@@ -2,6 +2,7 @@ const updatedDate = document.querySelector("#updated-date");
 const copyButton = document.querySelector("[data-copy]");
 const toast = document.querySelector(".toast");
 
+// フッターの更新日を閲覧時点の日付にします。
 if (updatedDate) {
   const now = new Date();
   updatedDate.dateTime = now.toISOString();
@@ -11,6 +12,7 @@ if (updatedDate) {
   }).format(now);
 }
 
+// 画面下部に短い通知を表示します。
 function showToast(message) {
   if (!toast) return;
   toast.textContent = message;
@@ -21,6 +23,7 @@ function showToast(message) {
   }, 2200);
 }
 
+// Clipboard API が使えない環境では input を使ってコピーします。
 async function copyText(text) {
   if (navigator.clipboard?.writeText) {
     await navigator.clipboard.writeText(text);
