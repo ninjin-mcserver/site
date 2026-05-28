@@ -1,24 +1,11 @@
-# ninjin.mcserver / site
+# にんじん.mcserver / site
 
-`ninjin.mcserver` の公開サイトを管理するリポジトリです。
-
-## リポジトリ
+公開サイト用リポジトリです。
 
 ```text
-https://github.com/ninjin-mcserver/site
-```
-
-想定している GitHub Pages URL:
-
-```text
-https://ninjin-mcserver.github.io/site/
-```
-
-Minecraft サーバー本体の設定は別リポジトリで管理します。
-
-```text
-https://github.com/ninjin-mcserver/main
-C:\Users\mcadmin\minecraft\servers\ninjin-mcserver\main
+公開URL: https://ninjin-mcserver.github.io/site/
+Minecraft: ninjin-mcserver.freeddns.org:25565
+BlueMap: http://ninjin-mcserver.freeddns.org:8123/
 ```
 
 ## ファイル構成
@@ -37,15 +24,9 @@ C:\Users\mcadmin\minecraft\servers\ninjin-mcserver\main
 
 `index.html` をブラウザで直接開いて確認します。
 
-現在の接続先:
+サーバー本体の運用は別リポジトリで管理します。
 
 ```text
-Minecraft: ninjin-mcserver.freeddns.org:25565
-BlueMap: http://ninjin-mcserver.freeddns.org:8123/
-```
-
-公開 URL:
-
-```text
-https://ninjin-mcserver.github.io/site/
+C:\Users\mcadmin\minecraft\servers\ninjin-mcserver\main
+https://github.com/ninjin-mcserver/main
 ```
