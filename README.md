@@ -1,6 +1,6 @@
-# ninjin.server / site
+# ninjin.mcserver / site
 
-`ninjin.server` の公開サイトを管理するリポジトリです。
+`ninjin.mcserver` の公開サイトを管理するリポジトリです。
 
 ## リポジトリ
 
@@ -40,8 +40,8 @@ C:\Users\mcadmin\minecraft\servers\ninjin-mcserver\main
 現在の接続先:
 
 ```text
-Minecraft: ninjin-server.freeddns.org:25565
-BlueMap: http://ninjin-server.freeddns.org:8123/
+Minecraft: ninjin-mcserver.freeddns.org:25565
+BlueMap: http://ninjin-mcserver.freeddns.org:8123/
 ```
 
 公開 URL:
