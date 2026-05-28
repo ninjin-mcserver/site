@@ -1,36 +1,36 @@
-# にんじん.server / top
+# ninjin.server / site
 
-Public website for `にんじん.server`.
+Public website repository for `ninjin.server`.
 
-Repository:
+## Repository
 
 ```text
-https://github.com/ninjin-mcserver/top
+https://github.com/ninjin-mcserver/site
 ```
 
-Expected Pages URL:
+Expected GitHub Pages URL:
 
 ```text
-https://ninjin-mcserver.github.io/top/
+https://ninjin-mcserver.github.io/site/
 ```
 
 The Minecraft server configuration is managed separately:
 
 ```text
 https://github.com/ninjin-mcserver/main
-C:\Users\mcadmin\minecraft\servers\ninjin-survival
+C:\Users\mcadmin\minecraft\servers\ninjin-mcserver\main
 ```
 
 ## Files
 
 ```text
 .
-├─index.html
-├─style.css
-├─script.js
-├─assets/
-│  └─ninjin-hero.png
-└─.nojekyll
++-- index.html
++-- style.css
++-- script.js
++-- assets/
+|   +-- ninjin-hero.png
++-- .nojekyll
 ```
 
 ## Local Preview
