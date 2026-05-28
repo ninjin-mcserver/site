@@ -37,11 +37,15 @@ C:\Users\mcadmin\minecraft\servers\ninjin-mcserver\main
 
 `index.html` をブラウザで直接開いて確認します。
 
-現在のローカルリンク:
+現在の接続先:
 
 ```text
 Minecraft: ninjin-server.freeddns.org:25565
 BlueMap: http://ninjin-server.freeddns.org:8123/
 ```
 
-公開サイトをプレイヤーに共有する前に、実際に外部からアクセスできる Minecraft サーバーアドレスと BlueMap URL に更新してください。
+公開 URL:
+
+```text
+https://ninjin-mcserver.github.io/site/
+```
