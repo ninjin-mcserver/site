@@ -24,7 +24,7 @@ BlueMap: http://ninjin-mcserver.freeddns.org:8123/
 
 `index.html` をブラウザで直接開いて確認します。
 
-サーバー本体の運用は別リポジトリで管理します。
+サーバー本体の運用手順は、main リポジトリの README に集約しています。
 
 ```text
 C:\Users\mcadmin\minecraft\servers\ninjin-mcserver\main
