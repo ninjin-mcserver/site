@@ -253,6 +253,17 @@ dd {
   font-weight: 800;
 }
 
+.server-address {
+  white-space: nowrap;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+dd.server-address,
+.primary-action.server-address {
+  font-size: clamp(0.78rem, 1.8vw, 1rem);
+}
+
 .content-band {
   padding-block: clamp(52px, 8vw, 88px);
 }
