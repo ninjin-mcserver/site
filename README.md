@@ -53,7 +53,7 @@ site
 +-- style.css
 +-- script.js
 +-- assets/
-|   +-- ninjin-hero.png
+|   +-- main-header.png
 +-- docs/
     +-- README.md
     +-- update-site.md

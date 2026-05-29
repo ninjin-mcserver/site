@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap");
+
 /* サイト全体で使う色と影の変数です。 */
 :root {
   color-scheme: light;
@@ -104,7 +106,7 @@ a {
   padding: clamp(58px, 9vw, 110px) clamp(18px, 5vw, 64px) clamp(44px, 7vw, 80px);
   background:
     linear-gradient(90deg, rgb(16 30 25 / 82%) 0%, rgb(16 30 25 / 52%) 44%, rgb(16 30 25 / 10%) 100%),
-    url("assets/ninjin-hero.png") center / cover no-repeat;
+    url("assets/main-header.png") center / cover no-repeat;
   color: #fffdf6;
 }
 
@@ -141,6 +143,12 @@ h1 {
   overflow-wrap: normal;
   white-space: nowrap;
   word-break: keep-all;
+}
+
+#hero-title {
+  font-family: "M PLUS Rounded 1c", "Yu Gothic UI", "Hiragino Maru Gothic ProN", Meiryo, sans-serif;
+  font-weight: 700;
+  text-shadow: 0 4px 18px rgb(0 0 0 / 28%);
 }
 
 .lead {
@@ -202,7 +210,7 @@ h1 {
 
 .status-strip {
   display: grid;
-  grid-template-columns: minmax(190px, 0.6fr) minmax(0, 1.4fr);
+  grid-template-columns: minmax(190px, 0.4fr) minmax(0, 1.4fr);
   gap: clamp(22px, 4vw, 54px);
   padding-block: clamp(28px, 5vw, 46px);
   background: #fffdf7;

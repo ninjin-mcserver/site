@@ -16,7 +16,7 @@ cd C:\Users\mcadmin\minecraft\servers\ninjin-mcserver\site
 index.html              文言とページ構造
 style.css               見た目
 script.js               コピー通知などの動き
-assets/ninjin-hero.png  ヘッダー画像
+assets/main-header.png  ヘッダー画像
 README.md               サイト作業の入口
 docs/                   サイト作業ドキュメント
 ```
@@ -41,7 +41,7 @@ docs/                   サイト作業ドキュメント
 差し替えるファイル:
 
 ```text
-assets/ninjin-hero.png
+assets/main-header.png
 ```
 
 画像を差し替えたら、`style.css` のヒーロー表示が崩れていないか確認します。
