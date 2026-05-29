@@ -17,6 +17,7 @@ index.html              文言とページ構造
 style.css               見た目
 script.js               コピー通知などの動き
 assets/main-header.png  ヘッダー画像
+assets/favicon.png      favicon
 README.md               サイト作業の入口
 docs/                   サイト作業ドキュメント
 ```
@@ -46,6 +47,17 @@ assets/main-header.png
 
 画像を差し替えたら、`style.css` のヒーロー表示が崩れていないか確認します。
 
+## faviconを更新する
+
+差し替えるファイル:
+
+```text
+assets/favicon.png
+```
+
+`index.html` の `<head>` で読み込んでいます。
+サーバーアイコンやBlueMap左下ボタンと雰囲気を揃えると、全体の印象がまとまります。
+
 ## ローカル確認
 
 `index.html` をブラウザで直接開きます。
@@ -58,6 +70,7 @@ assets/main-header.png
 BlueMapリンクが正しいか
 メールリンクが正しいか
 画像が表示されるか
+faviconが表示されるか
 ```
 
 ## GitHub Pagesへ反映

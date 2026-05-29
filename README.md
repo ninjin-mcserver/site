@@ -54,6 +54,7 @@ site
 +-- script.js
 +-- assets/
 |   +-- main-header.png
+|   +-- favicon.png
 +-- docs/
     +-- README.md
     +-- update-site.md
